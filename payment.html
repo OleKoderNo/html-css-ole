@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Days</title>
+    <link rel="stylesheet" href="/style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a654ce187.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+    <header>
+            <img class="navbarLogo" src="/images/RainyDays_Logo.png" alt="Rainy Days logo">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Men's wear</li>
+                    <li>Women's wear</li>
+                    <li>Contsct us</li>
+                </ul>
+                <div class="inputWrapper">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Search by products" name="search" id="search">
+                </div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </nav>
+            <div class="hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    </header>
+    <main>
+    <h1>Payment</h1>
+    <div class="paymentLayout mx-auto">
+        <section class="paymentInfo">
+            <form class="paymentForm">
+                <h2>Billing information</h2>
+                <div class="paymentFlex">
+                    <div>
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First name">
+                    </div>
+                    <div>
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last name">
+                    </div>
+                    <div>
+                        <label for="adress">Address</label>
+                        <input type="text" id="address" name="address" placeholder="Address">
+                    </div>
+                    <div>
+                        <label for="shipping-adress">Shipping Adress</label>
+                        <input type="text" id="shipping-address" name="shipping-address" placeholder="Shipping address">
+                    </div>
+                    <div>
+                        <label for="zip-code">Zip code</label>
+                        <input type="number" name="zip-code" id="zip-code" placeholder="Zip code">
+                    </div>
+                    <div>
+                        <label for="state">State/Region</label>
+                        <input type="text" id="state" name="state" placeholder="State/Region">
+                    </div>
+                </div>
+                <h2>Card information</h2>
+                <div class="paymentFlex">
+                    <div>
+                        <label for="card-holders-name">Card holders name</label>
+                        <input type="text" name="card-holders-name" id="card-holders-name" placeholder="Card holders name" >
+                    </div>
+                    <div>
+                        <label for="card-number">Card number</label>
+                        <input type="number" name="card-number" id="card-number" placeholder="Card number">
+                    </div>
+                    <div>
+                        <label for="cvc">CVC</label>
+                        <input type="number" name="cvc" id="cvc" placeholder="CVC">
+                    </div>
+                    <div>
+                        <label for="exp-date">Exp. date</label>
+                        <input type="text" name="exp-date" id="exp-date" placeholder="Exp. date">
+                    </div>
+                </div>
+                <input type="submit" value="Place order">
+            </form>
+        </section>
+        <section class="orderInfo">
+            <h2>Your Order</h2>
+            <div class="orderFlex">
+                <div class="imageContainerDark">
+                    <img src="/images/RainyDays_Jacket1.jpg" class="productImgSelected">
+                </div>
+                <div>
+                    <h3>StormGuardPro</h3>
+                    <p>Color: ORANGE/WHITE</p>
+                    <p>Size: L</p>
+                    <p>In Stock</p>
+                </div>
+            </div>
+            <div class="orderFlex">
+                <div>
+                    <p>Each</p>
+                    <p>159$</p>
+                    <label for="quantity">Quantity</label>
+                    <br>
+                    <select name="quantity" id="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>Total</p>
+                    <p>159$</p>
+                </div>
+                <div>
+                    <p>ENTER PROMO CODE</p>
+                    <input type="text" >
+                    <br>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <img src="/images/RainyDays_Logo.png" alt="Rainy Days logo">
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Terms of service</li>
+            <li>example@example.com</li>
+            <li>+47 123 45 678</li>
+        </ul>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
+</body>
+</html>
