@@ -153,11 +153,13 @@ input[type=submit] {
     font-size: 16px;
     display: block;
     margin: 20px auto;
+    cursor: pointer;
 }
 
 select {
-    width: 70px;
+    min-width: 70px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .navbarLogo{
