@@ -188,7 +188,7 @@ select {
 }
 
 .mainSection {
-    background-image: url("../images/header.png");
+    background-image: url("../images/header.webp");
     margin: -20px;
     padding: 0 20px;
     height: 350px;
@@ -281,18 +281,18 @@ select {
 }
 
 .backgroundProtection {
-    background-image: url("../images/protection.png");
+    background-image: url("../images/protection.webp");
 }
 
 .backgroundAdventures {
-    background-image: url("../images/adventures.png");
+    background-image: url("../images/adventures.webp");
 }
 
 .backgroundValue {
-    background-image: url("../images/value.png");
+    background-image: url("../images/value.webp");
 }
 .backgroundEnthusiast{
-    background-image: url("../images/enthusiast.png");
+    background-image: url("../images/enthusiast.webp");
 }
 
 .linearBtn {
